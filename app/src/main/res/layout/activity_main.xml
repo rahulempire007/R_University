@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+
+    android:background="@drawable/bla"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="palletech.com.r_university.MainActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Welcome Palle Tech"
+      android:textSize="60px"
+      android:textColor="#000"
+      android:gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select course"
+        android:textSize="40px"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:id="@+id/button1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:id="@+id/button2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=".NET"
+        android:layout_marginTop="10dp"
+        android:textSize="40px"
+        android:layout_gravity="center"
+        android:id="@+id/button3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQL"
+        android:layout_gravity="center"
+        android:textSize="40px"
+        android:id="@+id/button4"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

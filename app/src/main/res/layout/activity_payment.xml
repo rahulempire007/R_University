@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@drawable/dla"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="palletech.com.r_university.PaymentActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your are Purchasing :"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+        android:textSize="60px"
+        android:id="@+id/tv1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:text="Payment Mode :"
+        android:textSize="50px"
+        android:id="@+id/tv2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Credentials"
+        android:textSize="70px"
+
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+
+        android:layout_marginTop="10dp"
+        android:hint="enter card number"
+        android:textColor="#fff"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="enter Mobile"
+        android:textColor="#FfF"
+        android:layout_marginTop="10dp"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+        android:hint="enter delivery address"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_marginTop="10dp"
+        android:text="PAY"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn2"
+        android:layout_marginTop="10dp"
+        android:text="CANCEL"/>
+
+
+
+</LinearLayout>
